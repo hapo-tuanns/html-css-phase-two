@@ -1,0 +1,94 @@
+        @import "variables.scss";
+        @media only screen and (max-width: 768px) {
+            .header {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background: url("./image/rectangle.png");
+                height: 425px;
+            }
+            .hidden-of-down {
+                display: none;
+            }
+            .hidden-of-up {
+                display: block;
+            }
+            .header-right {
+                padding-top: 1%;
+                padding-right: 4%;
+            }
+            .logo {
+                img {
+                    width: 144px;
+                    height: 43px;
+                    margin-top: 7%;
+                }
+            }
+            .header-menu {
+                margin-top: 2%;
+                .icon-and-text {
+                    .list-icon-header {
+                        font-size: 24px;
+                    }
+                }
+            }
+            .header-menu {
+                .text {
+                    font-size: 24px;
+                }
+            }
+            .text-header {
+                font-size: 13px;
+                margin-top: -2%;
+            }
+            .start-now-header a {
+                letter-spacing: 1.17px;
+                font-size: 14px;
+            }
+            .content-one,
+            .content-two,
+            .content-three {
+                .text-one {
+                    font-size: 36px;
+                    letter-spacing: -0.07px;
+                }
+            }
+            .today-i-learnt {
+                margin-top: 51px;
+            }
+            .daily-report img {
+                margin-left: -8%;
+            }
+            .members img {
+                margin-left: -8%;
+            }
+            .content-one,
+            .content-two,
+            .content-three {
+                .text-one {
+                    .ti-bookmark-alt,
+                    .ti-write {
+                        margin-right: 19px;
+                        font-size: 30px;
+                    }
+                }
+            }
+            .col-sm-6 {
+                .content-one,
+                .content-two {
+                    .text-three {
+                        line-height: 20px;
+                        letter-spacing: 0;
+                        width: 291px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .customers {
+                .text-three {
+                    .text-customers {
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
